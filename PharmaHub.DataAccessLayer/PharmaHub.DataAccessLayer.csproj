@@ -21,4 +21,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PharmaHub.DataTranferObject\PharmaHub.DataTranferObject.csproj" />
+  </ItemGroup>
+
 </Project>

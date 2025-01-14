@@ -15,8 +15,6 @@ public partial class User
 
     public DateOnly DateOfBirth { get; set; }
 
-    public string Address { get; set; } = null!;
-
     public string? CreatedBy { get; set; }
 
     public DateOnly? CreatedDate { get; set; }
