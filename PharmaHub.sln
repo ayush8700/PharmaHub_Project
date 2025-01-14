@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaHub.DataAccessLayer", "PharmaHub.DataAccessLayer\PharmaHub.DataAccessLayer.csproj", "{A4F2C373-E82B-41C9-A51C-1C6AADB2F925}"
 EndProject
@@ -12,6 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaHub.TestApp", "PharmaHub.TestApp\PharmaHub.TestApp.csproj", "{F3083747-F01B-4463-9F3F-9A20507C8F89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaHub.WebServices", "PharmaHub.WebServices\PharmaHub.WebServices.csproj", "{7BF84FB9-CED7-4AB3-80CE-701ADDEF15B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{360ECCEA-7D7A-4908-86A9-95CB3E753EDF}"
+	ProjectSection(SolutionItems) = preProject
+		PharmaHubDBScript.sql = PharmaHubDBScript.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
